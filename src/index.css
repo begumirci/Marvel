@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Yavaş büyüme ve dönme animasyonu */
+.animate-slow {
+  animation: spin 5s linear infinite;
+}
+
+@keyframes logoAnimation {
+  from {
+    transform: scale(0.5); /* Başlangıç boyutu */
+  }
+  to {
+    transform: scale(1.5); /* Bitiş boyutu */
+  }
+}
+
+.logo {
+  animation: logoAnimation 2s ease infinite alternate;
+}
