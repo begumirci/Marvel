@@ -60,7 +60,7 @@ export default function MarvelData() {
                     className='rounded-lg flex flex-col items-center justify-center group overflow-hidden cursor-pointer w-auto md:w-full'
                   >
                     <img
-                      className='h-full rounded-t-lg transform scale-100 object-fill transition-transform duration-300 border-red border-b-8 group-hover:scale-110'
+                      className=' h-52 w-48 rounded-t-lg transform scale-100 object-fill transition-transform duration-300 border-red border-b-8 group-hover:scale-110'
                       src={character.thumbnail.path + '.jpg'}
                       alt=''
                     />
