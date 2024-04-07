@@ -20,6 +20,7 @@ export default function MarvelData() {
     try {
       const response = await fetch(apiUrl);
       const data = await response.json();
+      console.log(data);
       setCharacters(data.data.results);
     } catch (error) {
       console.error('Error fetching data:', error);
