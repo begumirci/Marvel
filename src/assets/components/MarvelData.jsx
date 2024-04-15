@@ -92,7 +92,7 @@ export default function MarvelData() {
             <div className='h-screen text-white flex flex-col  items-center gap-10 pt-10 md:pt-20 lg:pt-2  w-full '>
               <img
                 className='w-52 h-52  animate-slow  mt-8 md:mt-20 lg:mt-24'
-                src='../../../public/hydra.webp'
+                src='../../../public/hydra.jpg'
                 alt=''
               />
               <h2 className='text-2xl text-center '>
