@@ -1,6 +1,7 @@
 import { useEffect, useContext } from 'react';
 import CryptoJS from 'crypto-js';
 import { contextData } from '../../App';
+import imgHydra from '../../../public/hydra.jpg';
 
 export default function MarvelData() {
   const { word, characters, setCharacters, isLoading, setIsLoading } =
@@ -92,7 +93,7 @@ export default function MarvelData() {
             <div className='h-screen text-white flex flex-col  items-center gap-10 pt-10 md:pt-20 lg:pt-2  w-full '>
               <img
                 className='w-52 h-52  animate-slow  mt-8 md:mt-20 lg:mt-24'
-                src='../../../public/hydra.jpg'
+                src={imgHydra}
                 alt=''
               />
               <h2 className='text-2xl text-center '>
